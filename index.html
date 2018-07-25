@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-modificada">
+        <div class="container">
+            <div id="liks-menu">
+                <a class="link-menu" href="#eu">EU</a>
+                <a class="link-menu" href="#skills">SKILLS</a>
+                <a class="link-menu" href="#projetos">PROJETOS</a>
+                <a class="link-menu" href="#contatos">CONTATOS</a>
+            </div>
+        </div>
+    </nav>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>João Rafael</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="src/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="src/css/estilo.css" />
+    <script src="src/js/jquery-3.3.1.min.js"></script>
+    <script src="src/js/bootstrap.min.js"></script>
+    <script src="src/js/site.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="eu">
+            <div class="row">
+                <div class="col-md-1">
+                    <img src="src/imagem/eu.jpg" class="img-circle" width="100px" height="100px">
+                </div>
+
+                <div id="sobre-eu" class="col-md-8">
+                    <span id="meu-nome">João Rafael M Nogueira</span>
+                    <p> Eu ajudo pessoas a tirarem suas ideias do papel criando soluções web de alta performance para ambientes
+                        de intranet e nas nuvens.</p>
+                </div>
+            </div>
+        </div>
+
+        <!--SKILLS-->
+        <h3>Skills</h3>
+
+        <div id="skills">
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="src/imagem/icons/java-coffee-cup-logo.png" width="40px" height="40px">Java</div>
+                <div class="col-md-2">
+                    <img src="src/imagem/icons/icon_Spring_HighRes.png" width="40px" height="40px">Spring</div>
+                <div class="col-md-2">
+                    <img src="src/imagem/icons/html5.png" width="40px" height="40px">HTML5</div>
+                <div class="col-md-2">
+                    <img src="src/imagem/icons/css3.png" width="40px" height="40px">CSS3</div>
+                <div class="col-md-2">
+                    <img src="src/imagem/icons/aws.png" width="40px" height="40px">AWS</div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="src/imagem/icons/rest.png" width="40px" height="40px">REST</div>
+                <div class="col-md-2">
+                    <img src="src/imagem/icons/flyway_59232.png" width="40px" height="40px">FlyWay</div>
+                <div class="col-md-2">
+                    <img src="src/imagem/icons/mysql.png" width="40px" height="40px">MySQL</div>
+                <div class="col-md-2">
+                    <img src="src/imagem/icons/jquery.png" width="40px" height="40px">JQuery</div>
+                <div class="col-md-2">
+                    <img src="src/imagem/icons/linux.png" width="40px" height="40px">Linux</div>
+            </div>
+        </div>
+
+        <!--PROJETOS-->
+        <h3>Principais Projetos</h3>
+
+        <div id="projetos" class="container">
+            <div class="row">
+                <!--
+                    <div class="col-md-4">
+                        <a href="#" id="link-hastags">#Java</a>
+                        <a href="#" id="link-hastags">#Spring</a>
+                        <a href="#" id="link-hastags">#Hibernate</a>
+                        <a href="#" id="link-hastags">#MySQL</a>
+                        <a href="#" id="link-hastags">#Rest</a>
+                    </div>
+                -->
+            </div>
+
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="projeto-carrosel">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="src/imagem/tela-app-01.jpg" class="img-responsive img-rounded">
+                                </div>
+                                <div class="col-md-4">
+
+                                    <h4>Catálogo Mobile</h4>
+                                    App criado com o objetivo apresentar uma lista de produtos com descrição e imagens.
+
+                                    <ul>
+                                        <li>Lista de produtos</li>
+                                        <li>Produtos na promoção</li>
+                                        <li>Mensagens</li>
+                                        <li>Sincronização</li>
+                                        <li>Trabalha offline</li>
+                                    </ul>
+                                </div>
+                                <div class="carousel-caption">
+                                    imagem 1
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="projeto-carrosel">
+                            <h3>Sistema de vendas para sorveteria e lanchonetes</h3>
+                            <div class="row">
+                                <div class="col-md-offset-2 col-md-10">
+                                    <iframe width="520" height="315" src="https://www.youtube.com/embed/nUM_TKwQX04?rel=0" frameborder="0" allow="autoplay; encrypted-media"
+                                        llowfullscreen></iframe>
+                                </div>
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src=""></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+        </div>
+
+        <!--CONTATOS-->
+        <h3>Contatos</h3>
+
+        <div id="contatos">
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/joaorafael-m-nogueira/">Linkedin</a> (Vejá um pouco mais sobre a minha vida profissional)</li>
+                <li>
+                    <a href="https://github.com/joaotux" target="_blank">GitHub</a> (Aqui estão alguns dos meus projetos de código aberto)</li>
+                <li>
+                    <a href="https://twitter.com/joaotux" target="_blank">Twitter</a>
+                </li>
+                <li>
+                    <a href="#">Whatsapp: (69)98444-2467</a>
+                </li>
+                <li>
+                    <a href="#">Skype: joaorafaelmib</a>
+                </li>
+            </ul>
+        </div>
+
+        <footer>
+            <div id="rodape">
+                Desenvolvido por João Rafael - 2018
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

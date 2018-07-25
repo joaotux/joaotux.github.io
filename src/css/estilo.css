@@ -1,0 +1,90 @@
+body {
+    background-color:black;
+}
+
+.navbar-modificada {
+    background-color: #ff4000;
+    border-color: #ff4000
+}
+
+#liks-menu {
+    text-align: right;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+#liks-menu a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    padding-left: 1%;
+}
+
+#liks-menu a:hover{
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+h3 {
+    padding-top: 10%;
+    text-align: center;
+    color: #ffffff;
+}
+
+/*EU*/
+#eu {
+    padding-top: 7%;
+    padding-left: 5%;
+}
+
+#meu-nome {
+    font-size: 1.5em;
+}
+
+#sobre-eu {
+    padding-left: 4%;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+/*SKILLS*/
+#skills {
+    padding-top: 1%;
+    padding-left: 15%;
+    color: #ffffff;
+    font-size: 1.3em;
+}
+
+/*PROJETOS*/
+#projetos {
+    padding-top: 1%;
+}
+
+#link-hastags {
+    text-decoration: none;
+    padding-left: 10%;
+}
+
+.projeto-carrosel {
+    padding: 15% 15% 15% 15%;
+}
+
+.carousel-inner {
+    background-color: #666363
+}
+
+/*CONTATOS*/
+#contatos {
+    padding-top: 1%;
+    padding-left: 10%;
+}
+
+#contatos a {
+    text-decoration: none;
+}
+
+/*RODAPÉ*/
+#rodape {
+    text-align: center;
+    padding-top: 2%;
+}
