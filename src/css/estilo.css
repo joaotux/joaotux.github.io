@@ -33,7 +33,7 @@ h3 {
 
 /*EU*/
 #eu {
-    padding-top: 7%;
+    padding-top: 15%;
     padding-left: 5%;
 }
 
@@ -67,6 +67,8 @@ h3 {
 
 .projeto-carrosel {
     padding: 15% 15% 15% 15%;
+    color: #ffffff;
+    font-size: 1.3em;
 }
 
 .carousel-inner {
@@ -77,6 +79,7 @@ h3 {
 #contatos {
     padding-top: 1%;
     padding-left: 10%;
+    font-size: 1.2em;
 }
 
 #contatos a {
