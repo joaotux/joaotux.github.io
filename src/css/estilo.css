@@ -26,7 +26,6 @@ body {
 }
 
 h3 {
-    padding-top: 10%;
     text-align: center;
     color: #ffffff;
 }
@@ -34,23 +33,28 @@ h3 {
 /*EU*/
 #eu {
     padding-top: 15%;
-    padding-left: 5%;
+    padding-left: 15%
 }
 
 #meu-nome {
     font-size: 1.5em;
 }
 
+h3 {
+    padding-top: 5%
+}
+
 #sobre-eu {
-    padding-left: 4%;
     color: #ffffff;
     font-size: 1.2em;
+    padding-left:5%
 }
 
 /*SKILLS*/
 #skills {
     padding-top: 1%;
-    padding-left: 15%;
+    padding-left: 20%;
+    padding-right: 15%;
     color: #ffffff;
     font-size: 1.3em;
 }
@@ -60,25 +64,11 @@ h3 {
     padding-top: 1%;
 }
 
-#link-hastags {
-    text-decoration: none;
-    padding-left: 10%;
-}
-
-.projeto-carrosel {
-    padding: 15% 15% 15% 15%;
-    color: #ffffff;
-    font-size: 1.3em;
-}
-
-.carousel-inner {
-    background-color: #666363
-}
-
 /*CONTATOS*/
 #contatos {
     padding-top: 1%;
-    padding-left: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
     font-size: 1.2em;
 }
 
