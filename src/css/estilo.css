@@ -70,6 +70,7 @@ h3 {
     padding-left: 15%;
     padding-right: 15%;
     font-size: 1.2em;
+    color: #ffffff
 }
 
 #contatos a {
@@ -80,4 +81,5 @@ h3 {
 #rodape {
     text-align: center;
     padding-top: 2%;
+    color: #ffffff
 }
