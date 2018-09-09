@@ -1,10 +1,10 @@
 body {
-    background-color:black;
+    background-color: #e6e6e6;
 }
 
 .navbar-modificada {
-    background-color: #ff4000;
-    border-color: #ff4000
+    background-color: #00e600;
+    border-color: #00e600
 }
 
 #liks-menu {
@@ -15,19 +15,19 @@ body {
 
 #liks-menu a{
     text-decoration: none;
-    color: #ffffff;
+    color: #030303;
     font-size: 1.2em;
     padding-left: 1%;
 }
 
 #liks-menu a:hover{
     text-decoration: none;
-    color: #b3b3b3;
+    color: #252323;
 }
 
 h3 {
     text-align: center;
-    color: #ffffff;
+    color: #030303;
 }
 
 /*EU*/
@@ -45,7 +45,7 @@ h3 {
 }
 
 #sobre-eu {
-    color: #ffffff;
+    color: #030303;
     font-size: 1.2em;
     padding-left:5%
 }
@@ -55,7 +55,7 @@ h3 {
     padding-top: 1%;
     padding-left: 20%;
     padding-right: 15%;
-    color: #ffffff;
+    color: #030303;
     font-size: 1.3em;
 }
 
@@ -70,7 +70,7 @@ h3 {
     padding-left: 15%;
     padding-right: 15%;
     font-size: 1.2em;
-    color: #ffffff
+    color: #030303
 }
 
 #contatos a {
@@ -81,5 +81,5 @@ h3 {
 #rodape {
     text-align: center;
     padding-top: 2%;
-    color: #ffffff
+    color: #030303
 }
