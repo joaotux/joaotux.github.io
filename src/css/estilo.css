@@ -73,6 +73,17 @@ h3 {
     color: #030303
 }
 
+#recomendacoes {
+    padding-left: 20%;
+    padding-right: 15%;
+}
+
+#comentario {
+    padding-right: 0%;
+    padding-left: 5%;
+    background-color: white
+}
+
 #contatos a {
     text-decoration: none;
 }
