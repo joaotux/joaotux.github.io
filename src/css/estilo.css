@@ -64,6 +64,22 @@ h3 {
     padding-top: 1%;
 }
 
+.projeto-descricao-pdv {
+    padding-bottom: 18%;
+}
+
+.projeto-descricao-cobranca {
+    padding-bottom: 0%;
+}
+
+.projeto-descricao-appideal {
+    padding-bottom: 6%;
+}
+
+.projeto-descricao-bodega {
+    padding-bottom: 12%;
+}
+
 /*CONTATOS*/
 #contatos {
     padding-top: 1%;
