@@ -1,404 +1,1165 @@
 <!DOCTYPE html>
-<html>
+<html lang="zxx">
 
 <head>
-    <link rel="shortcut icon" href="src/imagem/icons/favicon.ico" />
-
-    <nav class="navbar navbar-default navbar-fixed-top navbar-modificada">
-        <div class="container">
-            <div id="liks-menu">
-                <a class="link-menu" href="#eu">Eu</a>
-                <a class="link-menu" href="#skills">Skills</a>
-                <a class="link-menu" href="#projetos">Projetos</a>
-                <a class="link-menu" href="#recomendacoes">Clientes</a>
-                <a class="link-menu" href="#contatos">Contatos</a>
-            </div>
-        </div>
-    </nav>
-
-    <meta charset="utf-8" />
+    <!-- metas -->
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>UmDesenvolvedor</title>
-    <meta name="description" content="Agência de desenvolvimento web e mobile">
-    <meta name="keywords" content="programador freelancer,freelancer,contratar programador,Programador Java">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Programador freelancer">
+    <meta name="keywords"
+        content="programador de aplicativo,programador freelancer,contratar programador,programador mobile">
     <meta name="author" content="João Rafael Mendes Nogueira">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-    <link rel="stylesheet" type="text/css" media="screen" href="src/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="src/css/estilo.css" />
-    <script src="src/js/jquery-3.3.1.min.js"></script>
-    <script src="src/js/bootstrap.min.js"></script>
-    <script src="src/js/site.js"></script>
+    <!-- title -->
+    <title>João Rafael - Freelancer</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <!-- plugin CSS -->
+    <link href="static/plugin/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/plugin/font-awesome/css/all.min.css" rel="stylesheet">
+    <link href="static/plugin/et-line/style.css" rel="stylesheet">
+    <link href="static/plugin/themify-icons/themify-icons.css" rel="stylesheet">
+    <link href="static/plugin/owl-carousel/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="static/plugin/magnific/magnific-popup.css" rel="stylesheet">
+    <!-- theme css -->
+    <link href="static/style/master.css" rel="stylesheet">
 </head>
+<!-- Body Start -->
 
-<body>
-    <div class="container">
-
-        <div id="eu">
-            <div class="row">
-                <div class="col-md-1 col-xs-12">
-                    <img src="src/imagem/eu.jpg" class="img-circle" width="100px" height="100px">
-                </div>
-
-                <div id="sobre-eu" class="col-md-8 col-xs-12">
-                    <span id="meu-nome">João Rafael M Nogueira</span>
-                    <p> Olá, sou formado em analise e desenvolvimento de sistemas com especialização em desenvolvimento
-                        web e
-                        mobile, atuo na área de TI a mais de 7 anos. Atualmente desenvolvo sistemas web, mobile e
-                        desktop
-                        com as melhores tecnologias do mercado.
-                        <br> Se você tem alguma ideia de software e quer tirá-la do papel, entre em contato comigo e
-                        bateremos
-                        um papo.</p>
+<body data-spy="scroll" data-target="#navbar-collapse-toggle" data-offset="70">
+    <!-- page loading -->
+    <div id="loading">
+        <div class="load-circle"><span class="one"></span></div>
+    </div>
+    <!-- end page loading -->
+    <!-- Mobile Toggle -->
+    <div class="mob-header">
+        <div class="d-flex">
+            <div class="navbar-brand">
+                <a class="logo-text" href="#navbar-collapse-toggle">
+                    João Rafael
+                </a>
+            </div>
+            <button class="toggler-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </div>
+    <!-- / -->
+    <header class="header-left" id="navbar-collapse-toggle">
+        <div class="navbar-brand">
+            <a class="logo-text" href="#">
+                João Rafael
+            </a>
+        </div>
+        <ul class="nav">
+            <li>
+                <a class="nav-link" href="#home">
+                    <i class="fas fa-house-damage"></i>
+                    <span>Inicio</span>
+                </a>
+            </li>
+            <li>
+                <a class="nav-link" href="#about">
+                    <i class="far fa-address-card"></i>
+                    <span>Sobre mim</span>
+                </a>
+            </li>
+            <li>
+                <a class="nav-link" href="#skill">
+                    <i class="fa fa-cog"></i>
+                    <span>Habilidades</span>
+                </a>
+            </li>
+            <li>
+                <a class="nav-link" href="#services">
+                    <i class="fas fa-concierge-bell"></i>
+                    <span>Serviços</span>
+                </a>
+            </li>
+            <li>
+                <a class="nav-link" href="#work">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Projetos</span>
+                </a>
+            </li>
+            <li>
+                <a class="nav-link" href="#testimonials">
+                    <i class="fas fa-id-card-alt"></i>
+                    <span>Clientes</span>
+                </a>
+            </li>
+            <li>
+                <a class="nav-link" href="#contactus">
+                    <i class="fas fa-id-card-alt"></i>
+                    <span>Contato</span>
+                </a>
+            </li>
+        </ul>
+    </header>
+    <!-- Main -->
+    <main class="main-left">
+        <!-- Home Banner -->
+        <section id="home" class="home-banner-01 bg-cover bg-center bg-no-repeat d-none d-lg-block"
+            style="background-image: url(static/img/banner-site.png);">
+            <div class="container">
+                <div class="row full-screen align-items-center p-100px-tb">
+                    <div class="col-md-6">
+                        <div class="ht-text">
+                            <h1>João Rafael</h1>
+                            <h2> <span id="type-it"></span></h2>
+                            <p>Eu ajudo empresas e autônomos a tirarem seus projetos do papel desenvolvendo
+                                sistemas web e mobile modernos e seguros .
+                            </p>
+                            <div class="btn-bar go-to">
+                                <a class="m-btn m-btn-theme" href="#work">meus trabalhos</a>
+                                <a class="m-btn m-btn-t-theme" href="#contactus">meus contatos</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <!--SKILLS-->
-        <h3>Skills</h3>
-
-        <div id="skills">
-            <div class="row">
-                <div class="col-md-3 col-sm-3 col-xs-6">
-                    <img src="src/imagem/icons/java-coffee-cup-logo.png" width="40px" height="40px">
-                    <br>Java</div>
-                <div class="col-md-3 col-sm-3 col-xs-6">
-                    <img src="src/imagem/icons/javafx.png" width="50px" height="40px">
-                    <br>JavaFX</div>
-                <div class="col-md-3 col-sm-3 col-xs-6">
-                    <img src="src/imagem/icons/icon_Spring_HighRes.png" width="40px" height="40px">
-                    <br>Spring</div>
-                <div class="col-md-3 col-sm-3 col-xs-6">
-                    <img src="src/imagem/icons/android.png" width="40px" height="40px">
-                    <br>Android</div>
-                <div class="col-md-3 col-sm-3 col-xs-6">
-                    <img src="src/imagem/icons/rest.png" width="40px" height="40px">
-                    <br>REST</div>
-                <div class="col-md-3 col-sm-3 col-xs-6">
-                    <img src="src/imagem/icons/jquery.png" width="40px" height="40px">
-                    <br>JQuery</div>
-                <div class="col-md-3 col-sm-3 col-xs-6">
-                    <img src="src/imagem/icons/aws.png" width="40px" height="40px">
-                    <br>AWS</div>
-                <div class="col-md-3 col-sm-3 col-xs-6">
-                    <img src="src/imagem/icons/mysql.png" width="40px" height="40px">
-                    <br>MySQL</div>
-                <div class="col-md-3 col-sm-3 col-xs-6">
-                    <img src="src/imagem/icons/mariadb.jpg" width="40px" height="40px">
-                    <br>MariaDB</div>
-                <div class="col-md-3 col-sm-3 col-xs-6">
-                    <img src="src/imagem/icons/flyway_59232.png" width="40px" height="40px">
-                    <br>FlyWay</div>
-                <div class="col-md-3 col-sm-3 col-xs-6">
-                    <img src="src/imagem/icons/linux.png" width="40px" height="40px">
-                    <br>Linux</div>
-                <div class="col-md-3 col-sm-3 col-xs-6">
-                    <img src="src/imagem/icons/html5.png" width="40px" height="40px">
-                    <br>HTML5</div>
-                <div class="col-md-3 col-sm-3 col-xs-6">
-                    <img src="src/imagem/icons/css3.png" width="40px" height="40px">
-                    <br>CSS3</div>
+            <div class="go-to go-to-next">
+                <a href="#about">
+                    <span></span>
+                </a>
             </div>
-        </div>
+        </section>
 
-        <!--PROJETOS-->
-        <h3>Principais Projetos</h3>
-
-        <div id="projetos" class="container">
+        <section id="home"
+            class="home-banner-01 bg-cover bg-center bg-no-repeat d-block d-sm-block d-md-block d-lg-none">
+            <div class="container">
+                <div class="row full-screen align-items-center p-100px-tb">
+                    <div class="col-md-6">
+                        <div class="ht-text">
+                            <h1>João Rafael</h1>
+                            <h2> <span id="type-it"></span></h2>
+                            <p>Eu ajudo empresas e autônomos a tirarem seus projetos do papel desenvolvendo
+                                sistemas web e mobile modernos e seguros .
+                            </p>
+                            <div class="btn-bar go-to">
+                                <a class="m-btn m-btn-theme" href="#work">meus trabalhos</a>
+                                <a class="m-btn m-btn-t-theme" href="#contactus">meus contatos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="go-to go-to-next">
+                <a href="#about">
+                    <span></span>
+                </a>
+            </div>
+        </section>
+        <!-- End Home Banner -->
+        <!-- about us -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="row sm-m-25px-b m-35px-b">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h3 class="dark-color text-uppercase">SOBRE MIM</h3>
+                            <p class="text-uppercase small">analista e desenvolvedor de sistemas freelancer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-5 m-15px-tb">
+                        <div class="about-me-img box-shadow">
+                            <img src="static/img/eu.jpg" title="" alt="">
+                            <div class="nav social-icon">
+                                <a href="https://www.twitter.com/joaotux" target="_blank"><i
+                                        class="fab fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/in/joaorafael-m-nogueira/" target="_blank"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 m-15px-tb">
+                        <div class="about-me">
+                            <h4>Me chamo João Rafael M Nogueira</h4>
+                            <h6>Atuo na área de TI a mais de 8 anos, atualmente desenvolvo sistemas para as plataformas
+                                web, Android e iOS,
+                                sou formado em analise e desenvolvimento de sistemas com especialização em
+                                desenvolvimento de sistemas <span class="theme-color">web e mobile</span></h6><br>
+                            Se você tem alguma ideia de software e quer tirá-la do papel, entre em contato comigo e
+                            bateremos um papo.
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end about us -->
+        <!-- fun -->
+        <section id="skill" class="section gray-bg">
+            <div class="container">
+                <div class="row sm-m-25px-b m-35px-b">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h3 class="dark-color text-uppercase">habilidades</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-between">
+                    <div class="col-lg-6 m-15px-tb">
+                        <div class="skill-lt">
+                            <h6 class="dark-color">Java</h6>
+                            <div class="skill-bar">
+                                <div class="skill-bar-in theme-bg" role="progressbar" aria-valuenow="94"
+                                    aria-valuemin="0" aria-valuemax="100">
+                                    <span>94%</span>
+                                </div>
+                            </div>
+                        </div><!-- /skill -->
+                        <!-- end skill -->
+                        <!-- skill -->
+                        <div class="skill-lt">
+                            <h6 class="dark-color">Spring framework</h6>
+                            <div class="skill-bar">
+                                <div class="skill-bar-in theme-bg" role="progressbar" aria-valuenow="92"
+                                    aria-valuemin="0" aria-valuemax="100">
+                                    <span>92%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end skill -->
+                        <!-- skill -->
+                        <div class="skill-lt">
+                            <h6 class="dark-color">JavaFX</h6>
+                            <div class="skill-bar">
+                                <div class="skill-bar-in theme-bg" role="progressbar" aria-valuenow="88"
+                                    aria-valuemin="0" aria-valuemax="100">
+                                    <span>88%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end skill -->
+                        <!-- skill -->
+                        <div class="skill-lt">
+                            <h6 class="dark-color">Flutter</h6>
+                            <div class="skill-bar">
+                                <div class="skill-bar-in theme-bg" role="progressbar" aria-valuenow="82"
+                                    aria-valuemin="0" aria-valuemax="100">
+                                    <span>82%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end skill -->
+                        <!-- skill -->
+                    </div>
+                    <div class="col-lg-5 m-15px-tb">
+                        <!-- skill -->
+                        <div class="skill-lt">
+                            <h6 class="dark-color">MySQL/MariaDB</h6>
+                            <div class="skill-bar">
+                                <div class="skill-bar-in theme-bg" role="progressbar" aria-valuenow="95"
+                                    aria-valuemin="0" aria-valuemax="100">
+                                    <span>95%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end skill -->
+                        <!-- skill -->
+                        <div class="skill-lt">
+                            <h6 class="dark-color">Goole Cloud</h6>
+                            <div class="skill-bar">
+                                <div class="skill-bar-in theme-bg" role="progressbar" aria-valuenow="70"
+                                    aria-valuemin="0" aria-valuemax="100">
+                                    <span>70%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end skill -->
+                        <!-- skill -->
+                        <div class="skill-lt">
+                            <h6 class="dark-color">AWS</h6>
+                            <div class="skill-bar">
+                                <div class="skill-bar-in theme-bg" role="progressbar" aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end skill -->
+                        <!-- skill -->
+                        <div class="skill-lt">
+                            <h6 class="dark-color">Linux</h6>
+                            <div class="skill-bar">
+                                <div class="skill-bar-in theme-bg" role="progressbar" aria-valuenow="92"
+                                    aria-valuemin="0" aria-valuemax="100">
+                                    <span>92%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end skill -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End fun -->
+        <!-- resume -->
+        <section id="services" class="section">
+            <div class="container">
+                <div class="row sm-m-25px-b m-35px-b">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h3 class="dark-color text-uppercase">meus serviços</h3>
+                        </div>
+                    </div>
+                </div>
                 <div class="row">
-                        <div class="col-md-8 col-md-offset-2 col-xs-12">
-                            <h4 class="text-center">ERP Edukaa</h4>
-                            <div class="thumbnail"><br>
-                                <img src="src/imagem/projetos/adukaa/edukaa.gif" alt="Gif do projeto" />
-        
-                                <div class="caption">
-        
-        
-                                    <p class="projeto-descricao">
-                                        <p>
-                                            Sistema desktop desenvolvido para a escola Integração de São Bernado do Campo - SP.
-                                        </p>
-                                        <p>O sistema permite o controle das matrículas dos alunos, lançamento de despesas dos alunos,
-                                            módulos de receber e a receber, controle dos funcionário, controle de folha de pagamentos,
-                                            conciliação bancária e módulo de relatórios.
-                                        </p>
-                                        <p>
-                                            O sistema foi desenvolvido com o objetivo de ser rápido e fácil de ser operado pelos usuários.
-                                            Ele é multi-plataformas, podendo ser usado em ambientes Windows e Linux.
-                                        </p>
-        
-                                    </p>
-        
-                                    <p>
-                                        Tecnologias usadas: <a href="#">Spring</a>, <a href="#">JavaFX</a>, <a
-                                            href="#">MariaDB</a>
-                                    </p>
+                    <!-- feaure box -->
+                    <div class="col-sm-6 col-lg-4 m-15px-tb">
+                        <div class="feature-box-1 box-shadow-lg">
+                            <div class="icon">
+                                <i class="icon-tools"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h5>Análise</h5>
+                                <p>Análise e levantamento de requisitos detalhados do sistema.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / -->
+                    <!-- feaure box -->
+                    <div class="col-sm-6 col-lg-4 m-15px-tb">
+                        <div class="feature-box-1 box-shadow-lg">
+                            <div class="icon">
+                                <i class="icon-laptop"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h5>Desenvolvimento</h5>
+                                <p>Desenvolvimento de sistemas web e mobile para Android e iOS.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / -->
+                    <!-- feaure box -->
+                    <div class="col-sm-6 col-lg-4 m-15px-tb">
+                        <div class="feature-box-1 box-shadow-lg">
+                            <div class="icon">
+                                <i class="icon-lock"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h5>Segurança</h5>
+                                <p>Garantia de alta segurança e desempenho dos sistemas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / -->
+                    <!-- feaure box -->
+                    <div class="col-sm-6 col-lg-4 m-15px-tb">
+                        <div class="feature-box-1 box-shadow-lg">
+                            <div class="icon">
+                                <i class="icon-chat"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h5>Suporte</h5>
+                                <p>Suporte em tempo integral 24h e 7 dias por semana.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / -->
+                    <!-- feaure box -->
+                    <div class="col-sm-6 col-lg-4 m-15px-tb">
+                        <div class="feature-box-1 box-shadow-lg">
+                            <div class="icon">
+                                <i class="icon-tools-2"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h5>Customizações</h5>
+                                <p>Desenvolvimento e alterações de rotinas em sistemas já existentes.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / -->
+                    <!-- feaure box -->
+                    <div class="col-sm-6 col-lg-4 m-15px-tb">
+                        <div class="feature-box-1 box-shadow-lg">
+                            <div class="icon">
+                                <i class="icon-cloud"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h5>Integração</h5>
+                                <p>Desenvolvimento de sistemas web e mobile que se integrem com o seu sistema já
+                                    existente.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / -->
+                </div>
+            </div>
+        </section>
+        <!-- End resume -->
+        <!-- Work -->
+        <section id="work" class="section gray-bg">
+            <div class="container">
+                <div class="row sm-m-25px-b m-35px-b">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h3 class="dark-color text-uppercase">ÚTIMOS PROJETOS</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="portfolio-content lightbox-gallery">
+                    <div class="grid-item product branding">
+                        <div class="portfolio-box-01">
+                            <div class="portfolio-img">
+                                <img src="static/img/projetos/agenda-integracao/01.jpg" title="" alt="">
+                            </div>
+                            <div class="portfolio-info">
+                                <h5>Agenda Integração</h5>
+                                <span>Androide, iOS e web</span>
+                            </div>
+                            <a class="link-overlay" data-toggle="modal" href="#modalAgendaIntegracao"></a>
+                        </div>
+                    </div> <!-- grid item -->
+                    <div class="grid-item product branding">
+                        <div class="portfolio-box-01">
+                            <div class="portfolio-img">
+                                <img src="static/img/projetos/delivery-cn/01.jpg" title="" alt="">
+                            </div>
+                            <div class="portfolio-info">
+                                <h5>Delivery ConstruNorte</h5>
+                                <span>Android e web</span>
+                            </div>
+                            <a class="link-overlay" data-toggle="modal" href="#modalDeliveryCN"></a>
+                        </div>
+                    </div> <!-- grid item -->
+                    <div class="grid-item product branding">
+                        <div class="portfolio-box-01">
+                            <div class="portfolio-img">
+                                <img src="static/img/projetos/catalogo-ideal/01.jpg" title="" alt="">
+                            </div>
+                            <div class="portfolio-info">
+                                <h5>Catálogo de produtos</h5>
+                                <span>Android e web</span>
+                            </div>
+                            <a class="link-overlay" data-toggle="modal" href="#modalCatalogoIdeal"></a>
+                        </div>
+                    </div> <!-- grid item -->
+                    <div class="grid-item product branding">
+                        <div class="portfolio-box-01">
+                            <div class="portfolio-img">
+                                <img src="static/img/projetos/edukaa/01.jpg" title="" alt="">
+                            </div>
+                            <div class="portfolio-info">
+                                <h5>Edukaa gestão escolar</h5>
+                                <span>Desktop</span>
+                            </div>
+                            <a class="link-overlay" data-toggle="modal" href="#modalEdukaa"></a>
+                        </div>
+                    </div> <!-- grid item -->
+                    <div class="grid-item product branding">
+                        <div class="portfolio-box-01">
+                            <div class="portfolio-img">
+                                <img src="static/img/projetos/traducoes/01.jpg" title="" alt="">
+                            </div>
+                            <div class="portfolio-info">
+                                <h5>Gestão de tradutores</h5>
+                                <span>Web</span>
+                            </div>
+                            <a class="link-overlay" data-toggle="modal" href="#modalTraducoes"></a>
+                        </div>
+                    </div> <!-- grid item -->
+                    <div class="grid-item product branding">
+                        <div class="portfolio-box-01">
+                            <div class="portfolio-img">
+                                <img src="static/img/projetos/zagor-erp/02.jpg" title="" alt="">
+                            </div>
+                            <div class="portfolio-info">
+                                <h5>ERP Zagor</h5>
+                                <span>Desktop</span>
+                            </div>
+                            <a class="link-overlay" data-toggle="modal" href="#modalZagorERP"></a>
+                        </div>
+                    </div> <!-- grid item -->
+                    <div class="grid-item product branding">
+                        <div class="portfolio-box-01">
+                            <div class="portfolio-img">
+                                <img src="static/img/projetos/cobranca/04.jpg" title="" alt="">
+                            </div>
+                            <div class="portfolio-info">
+                                <h5>Gestão de Cobranças</h5>
+                                <span>Web</span>
+                            </div>
+                            <a class="link-overlay" data-toggle="modal" href="#modalCobranca"></a>
+                        </div>
+                    </div> <!-- grid item -->
+                    <div class="grid-item product branding">
+                        <div class="portfolio-box-01">
+                            <div class="portfolio-img">
+                                <img src="static/img/projetos/pdv-origami/01.jpg" title="" alt="">
+                            </div>
+                            <div class="portfolio-info">
+                                <h5>ERP para web</h5>
+                                <span>Web</span>
+                            </div>
+                            <a class="link-overlay" data-toggle="modal" href="#modalPdvOrigami"></a>
+                        </div>
+                    </div> <!-- grid item -->
+                    <div class="grid-item product branding">
+                        <div class="portfolio-box-01">
+                            <div class="portfolio-img">
+                                <img src="static/img/projetos/venda-img/01.jpg" title="" alt="">
+                            </div>
+                            <div class="portfolio-info">
+                                <h5>ERP para fotografos</h5>
+                                <span>Desktop</span>
+                            </div>
+                            <a class="link-overlay" data-toggle="modal" href="#modalVendaImg"></a>
+                        </div>
+                    </div> <!-- grid item -->
+
+                    <div class="grid-item product branding">
+                        <div class="portfolio-box-01">
+                            <div class="portfolio-img">
+                                <img src="static/img/projetos/comandas/06.jpg" title="" alt="">
+                            </div>
+                            <div class="portfolio-info">
+                                <h5>Gestor de comandas</h5>
+                                <span>Web</span>
+                            </div>
+                            <a class="link-overlay" data-toggle="modal" href="#modalComandas"></a>
+                        </div>
+                    </div> <!-- grid item -->
+
+                    <!--MODAL DO PROJETO Agenda Integração-->
+                    <div class="modal fade" id="modalAgendaIntegracao" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Agenda Integração</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="owl-carousel" data-items="1" data-nav-dots="true" data-md-items="1"
+                                        data-sm-items="1" data-xs-items="1" data-xx-items="1" data-space="30">
+                                        <div>
+                                            <img src="static/img/projetos/agenda-integracao/01.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/agenda-integracao/02.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/agenda-integracao/03.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/agenda-integracao/04.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/agenda-integracao/05.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/agenda-integracao/06.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                    </div>
+                                    <p>Aplicativo desenvolvido para a escola Integração de São Bernado - SP, o projeto
+                                        tem como objetivo
+                                        permitir que os pais tenham uma melhor comunicação com a escola através de
+                                        recursos como agenda diária,
+                                        cardápio da semana, chat, aviso de que esta indo buscar a criança, aviso de que
+                                        a criança ira faltar entre
+                                        diversos outros recursos.</p><br>
+                                    Plataformas: <span class="theme-color">Android</span>, <span
+                                        class="theme-color">iOS</span> e <span class="theme-color">web</span>
+
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!--FIM MODAL DO PROJETO-->
 
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2 col-xs-12">
-                    <h4 class="text-center">PDV Imagens</h4>
-                    <div class="thumbnail"><br>
-                        <img src="src/imagem/projetos/pdvimg/pdvimg.gif" alt="Gif do projeto" />
+                    <!--MODAL DO PROJETO Agenda Integração-->
+                    <div class="modal fade" id="modalDeliveryCN" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Delivery ContruNorte</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="owl-carousel" data-items="1" data-nav-dots="true" data-md-items="1"
+                                        data-sm-items="1" data-xs-items="1" data-xx-items="1" data-space="30">
+                                        <div>
+                                            <img src="static/img/projetos/delivery-cn/01.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/delivery-cn/02.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/delivery-cn/03.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/delivery-cn/04.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/delivery-cn/05.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                    </div>
+                                    <p>Sistema mobile desenvolvido para a empresa ConstruNorte de Cacoal, tem como objetivo permitir a venda de produtos 
+                                        de forma online e permitir que os clientes realizem pagamentos através do cartão de crédito de forma parcelada. 
+                                        O sistema possui uma retaguarda web através da qual a empresa pode gerenciar os pedidos recebidos e possui um sistema 
+                                        desktop que permite a integração do estoque dos produtos com o sistema de ERP da empresa.</p><br>
+                                    Plataformas: <span class="theme-color">Android</span>, <span class="theme-color">web</span> e <span class="theme-color">Desktop</span>
 
-                        <div class="caption">
 
-                            <p class="projeto-descricao">
-                                <p>
-                                    Sistema desktop desenvolvido para a empresa Noel Mania de Santa Catarina, que organiza e vende
-                                    material fotográfico
-                                    em espaços decorados e destinados à datas comemorativas.
-                                </p>
-                                <p>O sistema permite a venda de imagens impressas e digitais, ele realiza a
-                                    contabilização financeira de
-                                    todas as imagens impressas ou enviadas por e-mais para os clientes de forma
-                                    automática.
-                                </p>
-                                <p>
-                                    O sistema possui os seguintes módulos, controle de usuários, caixa, pedidos, e-mails
-                                    enviados,
-                                    cadastro de produtos, controle de estoque, cadastro de impressoras padrões,
-                                    auditoria e relatórios.
-                                </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--FIM MODAL DO PROJETO-->
 
-                            </p>
+                    <!--MODAL DO PROJETO Catálogo de Produtos-->
+                    <div class="modal fade" id="modalCatalogoIdeal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Catálogo de Produtos</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="owl-carousel" data-items="1" data-nav-dots="true" data-md-items="1"
+                                        data-sm-items="1" data-xs-items="1" data-xx-items="1" data-space="30">
+                                        <div>
+                                            <img src="static/img/projetos/catalogo-ideal/01.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/catalogo-ideal/02.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/catalogo-ideal/04.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                    </div>
+                                    <p>Catálogo de produtos mobile desenvolvido para a empresa Ideal Móveis, o aplicativo permite que os vendedores 
+                                        tenham na palma da mão uma lista detalhada de todos os produtos para auxilia-los no processo de venda com os
+                                         clientes. O sistema possui um painel web atráves do qual a loja pode cadastrar os seus produtos que seram visiveis 
+                                         no aplicativo.
+                                    </p><br>
+                                    Plataformas: <span class="theme-color">Android</span> e <span class="theme-color">web</span>
 
-                            <p>
-                                Tecnologias usadas: <a href="#">Spring</a>, <a href="#">JavaFX</a>, <a
-                                    href="#">MariaDB</a>
-                            </p>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--FIM MODAL DO PROJETO-->
+
+                    <!--MODAL DO PROJETO Agenda Integração-->
+                    <div class="modal fade" id="modalEdukaa" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">ERP Escolar</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="owl-carousel" data-items="1" data-nav-dots="true" data-md-items="1"
+                                        data-sm-items="1" data-xs-items="1" data-xx-items="1" data-space="30">
+                                        <div>
+                                            <img src="static/img/projetos/edukaa/01.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/edukaa/02.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/edukaa/03.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                    </div>
+                                    <p>Sistema desktop desenvolvido para a escola Integração de São Bernado do Campo - SP.
+                                        <p>O sistema permite o controle das matrículas dos alunos, lançamento de despesas dos alunos, módulos de receber e a receber, controle dos funcionário, controle de folha de pagamentos, conciliação bancária e módulo de relatórios.</p>
+                                        <p>O sistema foi desenvolvido com o objetivo de ser rápido e fácil de ser operado pelos usuários. Ele é multi-plataformas, podendo ser usado em ambientes Windows, Linux e MacOS.</p>
+                                    </p>
+                                    Vídeo demonstração: <a href="https://www.youtube.com/watch?v=Z_YHU91hSUU&t=22s" target="_blank"><i class="fa fa-video"></i> Video</a><br>
+                                    Plataformas: <span class="theme-color">Desktop</span>
+
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--FIM MODAL DO PROJETO-->
+
+                    <!--MODAL DO PROJETO Gestão de Tradutores-->
+                    <div class="modal fade" id="modalTraducoes" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Gestão de Tradutores</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="owl-carousel" data-items="1" data-nav-dots="true" data-md-items="1"
+                                        data-sm-items="1" data-xs-items="1" data-xx-items="1" data-space="30">
+                                        <div>
+                                            <img src="static/img/projetos/traducoes/01.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/traducoes/02.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/traducoes/03.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/traducoes/04.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/traducoes/05.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Sistema web desenvolvido para realizar o gerenciamento de projeto de traduções de agencias da região do Rio de Janeiro.<p>
+                                        O sistema permite o controle total de todas as rotinas de uma agência de tradução, permitindo o gerenciamento dos projetos em andamento, gerenciamento dos clientes, 
+                                        geração de relatórios, geração de orçamentos, controle de pagamento dos funcionários e terceirizados, glossário em português, inglês e espanhol para auxiliar nas traduções, 
+                                        agenda de contatos e lembrete de aniversários de clientes.</p>
+                                        <p>O sistema possui internacionalização para português, inglês e espanhol.</p>
+                                    </p><br>
+                                    Plataformas: <span class="theme-color">Web</span>
+
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--FIM MODAL DO PROJETO-->
+
+                    <!--MODAL DO PROJETO Gestão de Cobranças-->
+                    <div class="modal fade" id="modalCobranca" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Gestão de Cobranças</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="owl-carousel" data-items="1" data-nav-dots="true" data-md-items="1"
+                                        data-sm-items="1" data-xs-items="1" data-xx-items="1" data-space="30">
+                                        <div>
+                                            <img src="static/img/projetos/cobranca/01.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/cobranca/02.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/cobranca/03.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/cobranca/04.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Sistema desenvolvido para a empresa B&M que atua no setor de cobranças, o sistema foi desenvolvido no formato web para funcionar totalmente online, 
+                                        assim trazendo mais flexibilidade para os gestores.<p>
+                                        O sistema permite a criação e administração de rotinas de cobrança, gestão de títulos de clientes, gerenciamento de credores e integração com 
+                                        boletos bancários.
+                                        </p>
+                                    </p><br>
+                                    Plataformas: <span class="theme-color">Web</span>
+
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--FIM MODAL DO PROJETO-->
+                    <!--MODAL DO PROJETO PDV web-->
+                    <div class="modal fade" id="modalPdvOrigami" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">PDV web</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="owl-carousel" data-items="1" data-nav-dots="true" data-md-items="1"
+                                        data-sm-items="1" data-xs-items="1" data-xx-items="1" data-space="30">
+                                        <div>
+                                            <img src="static/img/projetos/pdv-origami/01.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Sistema web desenvolvido para realizar a gestão de sorveterias, lanchonetes, padarias e restaurantes.
+                                        <p>O sistema possue controle de caixa, estoque, gerenciamento de mesas e diversas rotinas as quais permitem um 
+                                            controle completo do seu negócio.
+                                        </p>
+                                    </p>
+                                    Vídeo demonstração: <a href="https://www.youtube.com/watch?v=nUM_TKwQX04" target="_blank"><i class="fa fa-video"></i> Video</a><br>
+                                    Plataformas: <span class="theme-color">Web</span>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--FIM MODAL DO PROJETO-->
+                    <!--MODAL DO PROJETO PDV web-->
+                    <div class="modal fade" id="modalVendaImg" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">PDV web</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="owl-carousel" data-items="1" data-nav-dots="true" data-md-items="1"
+                                        data-sm-items="1" data-xs-items="1" data-xx-items="1" data-space="30">
+                                        <div>
+                                            <img src="static/img/projetos/venda-img/01.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/venda-img/02.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/venda-img/03.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/venda-img/04.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Sistema desktop desenvolvido para a empresa Noel Mania de Santa Catarina, que organiza e vende material fotográfico em espaços decorados e destinados à datas comemorativas.
+
+                                    <p>O sistema permite a venda de imagens impressas e digitais, ele realiza a contabilização financeira de todas as imagens impressas ou enviadas por e-mais para os clientes de forma automática.</p>
+
+                                    <p>O sistema possui os seguintes módulos, controle de usuários, caixa, pedidos, e-mails enviados, cadastro de produtos, controle de estoque, cadastro de impressoras padrões, auditoria e relatórios.</p>
+                                    </p>
+                                    Plataformas: <span class="theme-color">Desktop</span>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--FIM MODAL DO PROJETO-->
+                    <!--MODAL DO PROJETO PDV web-->
+                    <div class="modal fade" id="modalComandas" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">PDV web</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="owl-carousel" data-items="1" data-nav-dots="true" data-md-items="1"
+                                        data-sm-items="1" data-xs-items="1" data-xx-items="1" data-space="30">
+                                        <div>
+                                            <img src="static/img/projetos/comandas/01.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/comandas/02.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/comandas/03.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/comandas/04.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/comandas/05.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/comandas/06.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Sistema web desenvolvido para gerenciar comandas de bares de forma simples e rápida.
+                                    </p>
+                                    <p>
+                                        O sistema de gestão de comandas possui controle de vendas, mesas e comandas. 
+                                    </p>
+                                    Plataformas: <span class="theme-color">Web</span>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--FIM MODAL DO PROJETO-->
+                    <!--MODAL DO PROJETO modalZagorERP-->
+                    <div class="modal fade" id="modalZagorERP" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">ERP Zagor (Em desenvolvimento)</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="owl-carousel" data-items="1" data-nav-dots="true" data-md-items="1"
+                                        data-sm-items="1" data-xs-items="1" data-xx-items="1" data-space="30">
+                                        <div>
+                                            <img src="static/img/projetos/zagor-erp/01.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/zagor-erp/02.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/zagor-erp/03.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                        <div>
+                                            <img src="static/img/projetos/zagor-erp/04.jpg" title="" alt="" class="img-thumbnail">
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Sistema desenvolvido para gerenciar sorveterias, lanchonetes, restaurantes e padarias, o sistema possui controle de usuários, caixa, 
+                                        pedidos, vendas, mesas, estoque e controle de pagar e receber.
+                                        <p>
+                                            Sistema desenvolvido para ser a solução definitiva para o controle do seu negócio de uma forma prática e segura.
+                                        </p>
+                                    </p>
+                                    Plataformas: <span class="theme-color">Desktop</span>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--FIM MODAL DO PROJETO-->
+                </div>
+        </section>
+        <!-- End work -->
+        <!-- Testiminails -->
+        <section id="testimonials" class="section">
+            <div class="container">
+                <div class="row sm-m-25px-b m-35px-b">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h3 class="dark-color text-uppercase">Clientes</h3>
                         </div>
                     </div>
                 </div>
+                <div class="owl-carousel" data-items="1" data-nav-dots="true" data-md-items="2" data-sm-items="1"
+                    data-xs-items="1" data-xx-items="1" data-space="30">
+                    <!-- testimonials -->
+                    <div class="testimonial-col-01">
+                        <div class="media">
+                            <div class="img">
+                                <img src="static/img/clientes/cliente4.jpeg" title="" alt="">
+                            </div>
+                            <div class="media-body p-25px-l">
+                                <p>O Rafael é um profissional extremamente competente e foi muito paciente, me atendendo
+                                    em todas as minhas solicitações. Superou as expectativas em relação ao programa
+                                    solicitado. Super recomendo a todos.</p>
+                                <div class="tc-info">
+                                    <h6 class="font-alt dark-color font-w-600">Fabiana</h6>
+                                    <span>Gestora da escola Integração</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / -->
+                    <!-- testimonials -->
+                    <div class="testimonial-col-01">
+                        <div class="media">
+                            <div class="img">
+                                <img src="static/img/clientes/cliente1.jpeg" title="" alt="">
+                            </div>
+                            <div class="media-body p-25px-l">
+                                <p>Encontrei o João no Workana, no primeiro contato, já me passou credibilidade.
+                                    Excelente profissional, foi único que realmente levou meu projeto adiante. Um grande
+                                    profissional se preocupa com os pormenores de cada projeto, e isso o fez com
+                                    maestria. Super recomendo.</p>
+                                <div class="tc-info">
+                                    <h6 class="font-alt dark-color font-w-600">Tatiana</h6>
+                                    <span>Tradutora</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / -->
+                    <!-- testimonials -->
+                    <div class="testimonial-col-01">
+                        <div class="media">
+                            <div class="img">
+                                <img src="static/img/clientes/cliente2.jpeg" title="" alt="">
+                            </div>
+                            <div class="media-body p-25px-l">
+                                <p>Conheço o joão há alguns anos, viramos amigos e sempre conversamos, um dia precise de
+                                    uns do seus serviço, configurar um serviço linux para meu sistema. Ele fez toda a
+                                    configuração e ainda me deu todo suporte sensacional, me ensinou como operar o
+                                    servidor. O trabalho dele e sensacional, já estou com servidor a quase 1 ano e nunca
+                                    tive problemas, Parabéns joão pelo seu trabalho. Obrigado.</p>
+                                <div class="tc-info">
+                                    <h6 class="font-alt dark-color font-w-600">Willian</h6>
+                                    <span>CTO na Parcelado Fácil</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / -->
+                    <!-- testimonials -->
+                    <div class="testimonial-col-01">
+                        <div class="media">
+                            <div class="img">
+                                <img src="static/img/clientes/cliente3.jpeg" title="" alt="">
+                            </div>
+                            <div class="media-body p-25px-l">
+                                <p>sistema excelente, superou as nossas expectativas, altamente recomendado.</p>
+                                <div class="tc-info">
+                                    <h6 class="font-alt dark-color font-w-600">Diego Alencar</h6>
+                                    <span>Dono da B&M Cobranças</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / -->
+                </div>
             </div>
-
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2 col-xs-12">
-                    <h4 class="text-center">Gestor de Traduções</h4>
-                    <div class="thumbnail"><br>
-
-                        <img src="src/imagem/projetos/translator/traducao.gif" alt="Gif do projeto" />
-                        <div class="caption">
-
-                            <p class="projeto-descricao">
-                                <p>
-                                    Sistema web desenvolvido para realizar o gerenciamento de projeto de traduções de agencias da 
-                                    região do Rio de Janeiro,
-                                    como os de artigos, vídeos e etc.<br>
-                                    O sistema permite o controle total de todas as rotinas de uma agência de tradução,
-                                    permitindo o gerenciamento dos projetos em andamento, gerenciamento dos clientes, geração de
-                                    relatórios,
-                                    geração de orçamentos, controle de pagamento dos funcionários e terceirizados,
-                                    glossário em
-                                    português, inglês e espanhol para auxiliar nas traduções, agenda de contatos e lembrete de 
-                                    aniversários de clientes.
-                                </p>
-                                <p>
-                                    O sistema possui internacionalização para português, inglês e espanhol.
-                                </p>
-                                <p>
-                                    Tecnologias usadas: <a href="#">Spring</a>, <a href="#">Java</a>, <a
-                                        href="#">MySQL</a>
-                                </p>
-                            </p>
+        </section>
+        <!-- End Testiminails -->
+        <section id="contactus" class="section gray-bg">
+            <div class="container">
+                <div class="row sm-m-25px-b m-35px-b">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h3 class="dark-color text-uppercase">Contato</h3>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2 col-xs-12">
-                    <h4 class="text-center">Delivery ConstruNorte</h4>
-                    <div class="thumbnail"><br>
-
-                        <img src="src/imagem/projetos/appcn/appcn.gif" width="160"
-                            height="450" alt="Gif do projeto" />
-
-                        <div class="caption">
-
-                            <p class="projeto-descricao-cobranca">
-                                Sistema mobile desenvolvido para a empresa ConstruNorte de Cacoal, tem como objetivo
-                                permitir a venda de produtos de forma online e permitir que os clientes realizem
-                                pagamentos através do cartão de crédito de forma parcelada.
-                                O sistema possui uma retaguarda web através da qual a empresa pode gerenciar os pedidos
-                                recebidos e possui um sistema desktop que permite a integração do estoque dos produtos
-                                com o sistema de ERP da empresa.
-
-                            </p>
-
-                            <p>
-                                <a href="https://play.google.com/store/apps/details?id=d.com.deliverycn&hl=pt_BR"
-                                    target="_blank">Veja este app na Play Store</a>
-                            </p>
+                <!-- form -->
+                <div class="row justify-content">
+                    <div class="col-lg-4 m-15px-tb">
+                        <div class="contact-info media box-shadow">
+                            <div class="icon">
+                                <i class="ti-mobile"></i>
+                            </div>
+                            <div class="media-body">
+                                <h6 class="dark-color font-alt">Whatsapp</h6>
+                                <p>(69)98411-9131<br>
+                            </div>
+                        </div>
+                        <div class="contact-info media box-shadow">
+                            <div class="icon">
+                                <i class="ti-email"></i>
+                            </div>
+                            <div class="media-body">
+                                <h6 class="dark-color font-alt">E-mail</h6>
+                                <p>j.rafael.tux@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-info media box-shadow">
+                            <div class="icon">
+                                <i class="ti-github"></i>
+                            </div>
+                            <div class="media-body">
+                                <h6 class="dark-color font-alt">Github</h6>
+                                <a href="https://github.com/joaotux" target="_blank">Veja alguns dos meus projetos de
+                                    código aberto!</a>
+                            </div>
+                        </div>
+                        <div class="contact-info media box-shadow">
+                            <div class="icon">
+                                <i class="ti-linkedin"></i>
+                            </div>
+                            <div class="media-body">
+                                <h6 class="dark-color font-alt">Linkedin</h6>
+                                <a href="https://www.linkedin.com/in/joaorafael-m-nogueira/" target="_blank">Veja um
+                                    pouco mais sobre a minha vida profissional!</a>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <!-- end form -->
             </div>
-
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2 col-xs-12">
-                    <h4 class="text-center">Sistema de Cobranca</h4>
-                    <div class="thumbnail"><br>
-
-                        <img src="src/imagem/projetos/cobranca/cobranca.gif" alt="projeto" />
-
-                        <div class="caption">
-
-                            <p class="projeto-descricao-cobranca">Sistema desenvolvido para a empresa B&M que atua
-                                no setor de cobrança, o sistema foi
-                                desenvolvido no formato web para funcionar totalmente online, assim trazendo mais
-                                flexibilidade para os gestores.</p>
-                        </div>
+        </section>
+    </main>
+    <!-- main end -->
+    <!-- Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 m-10px-tb">
+                    <div class="nav justify-content-center justify-content-md-start">
+                        <a href="https://www.twitter.com/joaotux" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/joaorafael-m-nogueira/" target="_blank"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/joaotux" target="_blank"><i class="fab fa-github"></i></a>
                     </div>
                 </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2 col-xs-12">
-                    <h4 class="text-center">PDV Origami</h4>
-                    <div class="thumbnail"><br>
-
-                        <img src="src/imagem/projetos/pdv/pdv-01.png" alt="projeto" />
-
-                        <div class="caption">
-
-                            <p class="projeto-descricao-pdv">Sistema web desenvolvido para a gestão de sorveterias e
-                                lanchonetes. </p>
-                        </div>
-                    </div>
+                <div class="col-md-6 m-10px-tb text-center text-md-right">
+                    <p>© 2018 Desenvolvido por João Rafael</p>
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2 col-xs-12">
-                    <h4 class="text-center">Catálogo Mobile </h4>
-                    <div class="thumbnail"><br>
-
-                        <img src="https://raw.githubusercontent.com/joaotux/Mobile-Catalog/master/screenshot/mobile.gif"
-                            width="180" height="450" border="0" />
-
-                        <div class="caption">
-
-                            <p class="projeto-descricao-appideal">App criado com o objetivo de apresentar uma lista
-                                de produtos com descrição e imagens, mostrar
-                                produtos na promoção e receber mensagens enviadas pela aplicação web que gerencia
-                                este APP. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2 col-xs-12">
-                    <h4 class="text-center">Gestor de Comandas </h4>
-                    <div class="thumbnail"><br>
-                        <img src="src/imagem/projetos/boteco/gif-boteco01.gif" alt="projeto" />
-
-                        <div class="caption">
-
-                            <p class="projeto-descricao-bodega">Sistema web desenvolvido para a gestão de comandas
-                                para bares e bodegas. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--RECOMENDAÇÕES-->
-    <h3>Recomendações</h3>
-    <div id="recomendacoes">
-            <img src="src/imagem/clientes/cliente4.jpeg" class="img-circle" width="50px" alt="cliente" />
-            <a>
-                <b>Fabiana</b> via Workana
-                <br>
-            </a>
-            <p>
-                <div id="comentario">
-                        O Rafael é um profissional extremamente competente e foi muito paciente, 
-                        me atendendo em todas as minhas solicitações. Superou as expectativas em 
-                        relação ao programa solicitado. Super recomendo a todos.
-                </div>
-            </p>
-
-        <img src="src/imagem/clientes/cliente.jpeg" class="img-circle" width="50px" alt="cliente" />
-        <a>
-            <b>Tatiana</b> via Linkedin
-            <br>
-        </a>
-        <p>
-            <div id="comentario">
-                Encontrei o João no Workana, no primeiro contato, já me passou credibilidade. Excelente
-                profissional, foi único que realmente
-                levou meu projeto adiante. Um grande profissional se preocupa com os pormenores de cada projeto,
-                e isso
-                o fez com maestria. Super recomendo.
-            </div>
-        </p>
-
-        <img src="src/imagem/clientes/cliente2.jpeg" class="img-circle" width="50px" alt="cliente" />
-        <a>
-            <b>Willian</b> via Linkedin
-            <br>
-        </a>
-        <p>
-            <div id="comentario">
-                Conheço o joão há alguns anos, viramos amigos e sempre conversamos, um dia precise de uns do
-                seus serviço, configurar um serviço linux para meu sistema. Ele fez toda a configuração e ainda
-                me deu todo suporte sensacional, me ensinou como operar o servidor. O trabalho dele e
-                sensacional, já estou com servidor a quase 1 ano e nunca tive problemas, Parabéns joão pelo seu
-                trabalho. Obrigado.
-            </div>
-        </p>
-
-        <img src="src/imagem/clientes/cliente3.jpeg" class="img-circle" width="50px" alt="cliente" />
-        <a>
-            <b>Diego Alencar</b> via Linkedin
-            <br>
-        </a>
-        <p>
-            <div id="comentario">
-                sistema excelente, superou as nossas expectativas, altamente recomendado.
-            </div>
-        </p>
-    </div>
-
-    <!--CONTATOS-->
-    <h3>Contatos</h3>
-
-    <div id="contatos">
-        <ul>
-            <li>
-                <a href="https://www.linkedin.com/in/joaorafael-m-nogueira/" target="_blank">Linkedin</a> (Vejá
-                um pouco mais sobre a minha vida profissional)</li>
-            <li>
-                <a href="https://github.com/joaotux" target="_blank">GitHub</a> (Aqui estão alguns dos meus
-                projetos de código aberto)</li>
-            <li>
-                <a href="https://twitter.com/joaotux" target="_blank">Twitter</a>
-            </li>
-            <li>
-                <a>j.rafael.tux@gmail.com</a> (Me mande um e-mail, responderei o mais rápido possível.)</li>
-            <li>
-                <a>Whatsapp: (69)98411-9131</a>
-            </li>
-            <li>
-                <a>Skype: joaorafaelmib</a>
-            </li>
-        </ul>
-    </div>
-
-    <footer>
-        <div id="rodape">
-            Desenvolvido por João Rafael - 2018
         </div>
     </footer>
-    </div>
-
+    <!-- footer End -->
+    <!-- jquery -->
+    <script src="static/js/jquery-3.2.1.min.js"></script>
+    <script src="static/js/jquery-migrate-3.0.0.min.js"></script>
+    <!-- end jquery -->
+    <!-- appear -->
+    <script src="static/plugin/appear/jquery.appear.js"></script>
+    <!-- end appear -->
+    <!--bootstrap-->
+    <script src="static/plugin/bootstrap/js/popper.min.js"></script>
+    <script src="static/plugin/bootstrap/js/bootstrap.js"></script>
+    <!--end bootstrap-->
+    <!-- End -->
+    <!-- custom js -->
+    <script src="static/js/custom.js"></script>
+    <!-- end -->
+    <!-- end body -->
 </body>
+
+
+<!-- Mirrored from www.pxdraft.com/themeforest/tony/index-01.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Jul 2020 17:41:21 GMT -->
 
 </html>
