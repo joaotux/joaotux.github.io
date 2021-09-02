@@ -21,7 +21,6 @@
     <div id="panorama"></div>
 
 <script>
-        //var datas = [];
         var image = '';
         var query = location.search.slice(1);
         var partes = query.split('&');
@@ -36,9 +35,12 @@
         console.log(data['img']); 
 
 function testParameters(value) {
-    //datas = JSON.parse(value);
-    //console.log('values ' + value);
-    console.log('teste');
+    var datas = JSON.parse(value);
+    console.log('values ' + value);
+    console.log('------------------');
+    for(var v in datas) {
+        console.log(v);
+    }
     return value;
 }
 
