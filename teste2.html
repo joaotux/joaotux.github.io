@@ -40,7 +40,9 @@ function testParameters(value) {
     console.log('------------------');
     
     Object.keys(datas).forEach(function(k){
-        console.log(k + ' - ' + Object.prototype.toString.call(datas[k]));
+        console.log(k + ' - ' + Object.prototype.toString.call(datas[k]).map(function(p) {
+            console.log('map ===== ' + p);
+        }));
     });
 
     console.log('------------------');
