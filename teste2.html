@@ -38,9 +38,11 @@ function testParameters(value) {
     var datas = JSON.parse(value);
     console.log('values ' + value);
     console.log('------------------');
-    for(var v in datas) {
-        console.log('teste dados: ' + v);
-    }
+    
+    Object.keys(datas).forEach(function(k){
+        console.log(k + ' - ' + obj[k]);
+    });
+    
     console.log('------------------');
     return value;
 }
