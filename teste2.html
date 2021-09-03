@@ -37,36 +37,36 @@
         
         
 function testParameters(value) {
-    // console.log('inicio da lista ' + spotsList.length);
-    // var datas = JSON.parse(value);
+    console.log('inicio da lista ' + spotsList.length);
+    var datas = JSON.parse(value);
     
-    // Object.keys(datas).forEach(function(k){
-    //     console.log('length ========= ' + datas[k].length);
+    Object.keys(datas).forEach(function(k){
+        console.log('length ========= ' + datas[k].length);
         
-    //     for(i = 0; i < datas[k].length; i++) {
-    //         console.log('-------------------')
-    //         var obj = datas[k][i];
-    //         var spotValue = {};
-    //         Object.entries(obj).forEach(([key, value]) => {
-    //             console.log('key - ' + key + ' | value - ' + value);
-    //             spotValue[key] = value;
-    //         });
+        for(i = 0; i < datas[k].length; i++) {
+            console.log('-------------------')
+            var obj = datas[k][i];
+            var spotValue = {};
+            Object.entries(obj).forEach(([key, value]) => {
+                console.log('key - ' + key + ' | value - ' + value);
+                spotValue[key] = value;
+            });
 
-    //         console.log('spotValue ============= ' + spotValue);
-    //         spotsList.push(spotValue);
-    //     }
-    //     console.log('spotsList length ========= ' + spotsList.length);
-    // });
+            console.log('spotValue ============= ' + spotValue);
+            spotsList.push(spotValue);
+        }
+        console.log('spotsList length ========= ' + spotsList.length);
+    });
 
     // console.log('------------------');
     // return value;
-    spotsList.push({
-            "pitch": -26.83050941283083,
-            "yaw": 1.7865100352001804,
-            "type": "info",
-            "text": "Empresa 01",
-            "URL": "https://artbma.org/"
-        });
+    // spotsList.push({
+    //         "pitch": -26.83050941283083,
+    //         "yaw": 1.7865100352001804,
+    //         "type": "info",
+    //         "text": "Empresa 01",
+    //         "URL": "https://artbma.org/"
+    //     });
 
     console.log('dados lista ' + spotsList);
 
