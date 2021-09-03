@@ -25,6 +25,7 @@
         var query = location.search.slice(1);
         var partes = query.split('&');
         var data = {};
+        var spotsList = [];
         partes.forEach(function (parte) {
             var chaveValor = parte.split('=');
             var chave = chaveValor[0];
@@ -34,7 +35,7 @@
         image = data['img'];
         console.log(data['img']); 
         
-        var spotsList = [];
+        
 function testParameters(value) {
     var datas = JSON.parse(value);
     
@@ -44,13 +45,14 @@ function testParameters(value) {
         for(i = 0; i < datas[k].length; i++) {
             console.log('-------------------')
             var obj = datas[k][i];
-            var spotValue = new Map();
+            var spotValue = {};
             Object.entries(obj).forEach(([key, value]) => {
                 console.log('key - ' + key + ' | value - ' + value);
                 spotValue[key] = value;
             });
             spotsList.add(spotValue);
         }
+        console.log('spotsList length ========= ' + spotsList.length);
     });
 
     console.log('------------------');
