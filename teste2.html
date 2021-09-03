@@ -42,9 +42,12 @@ function testParameters(value) {
         console.log('length ========= ' + datas[k].length);
         var obj = datas[k][0];
         
-        Object.entries(obj).forEach(([key, value]) => {
-            console.log('key - ' + key + ' | value - ' + value);
-        });
+        for(i = 0; i <= datas[k].length; i++) {
+            console.log('-------------------')
+            Object.entries(obj).forEach(([key, value]) => {
+                console.log('key - ' + key + ' | value - ' + value);
+            });
+        }
     });
 
     console.log('------------------');
