@@ -41,9 +41,9 @@ function testParameters(value) {
     Object.keys(datas).forEach(function(k){
         console.log('length ========= ' + datas.length);
         var obj = datas[k][0];
-        console.log('Obj - ' + obj[0]); //.find(test => test.pitch == "Empresa 01")
-        Object.entries(obj).forEach(([key, value]) => {
-            console.log('key - ' + key + ' | value - ' + value);
+
+        Object.entries(obj).forEach((value) => {
+            console.log('value - ' + value);
         });
     });
 
