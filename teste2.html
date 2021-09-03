@@ -44,12 +44,12 @@ function testParameters(value) {
         for(i = 0; i < datas[k].length; i++) {
             console.log('-------------------')
             var obj = datas[k][i];
-            var spotValue = new Map();
+            var spotValue = {};
             Object.entries(obj).forEach(([key, value]) => {
                 console.log('key - ' + key + ' | value - ' + value);
                 spotValue.set(key, value);
             });
-            spotsList.add(spotValue);
+            //spotsList.add(spotValue);
         }
     });
 
