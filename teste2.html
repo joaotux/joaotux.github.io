@@ -37,6 +37,7 @@
         
         
 function testParameters(value) {
+    spotsList = [];
     var datas = JSON.parse(value);
     
     Object.keys(datas).forEach(function(k){
@@ -52,7 +53,7 @@ function testParameters(value) {
             });
             spotsList.push(spotValue);
         }
-        console.log('spotsList length ========= ' + spotsList.length);
+        console.log('spotsList length ========= ' + spotsList);
     });
 
     console.log('------------------');
