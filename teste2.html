@@ -42,12 +42,13 @@ function testParameters(value) {
         console.log('length ========= ' + datas.length);
         var obj = datas[k][0];
 
-        Object.entries(obj).forEach((value) => {
-            console.log('value - ' + value);
-        });
+        for(i = 0; i <= datas.length; i++) {
+            print('-------------------');
+            Object.entries(obj).forEach((value) => {
+                console.log('value - ' + value[1]);
+            });
+        }
     });
-
-    console.log('------------------');
     return value;
 }
 
