@@ -41,11 +41,10 @@ function testParameters(value) {
     Object.keys(datas).forEach(function(k){
         console.log('length ========= ' + datas.length);
         var obj = datas[k][0];
-
+        
         for(i = 0; i <= datas.length; i++) {
-            print('-------------------');
-            Object.entries(obj).forEach((value) => {
-                console.log('value - ' + value[1]);
+            Object.entries(obj).forEach((key, value) => {
+                console.log('key ' + key + 'value - ' + value);
             });
         }
     });
