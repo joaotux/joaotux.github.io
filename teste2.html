@@ -60,7 +60,7 @@ function testParameters(value) {
 
     // console.log('------------------');
     // return value;
-
+    pannellum.destroy();
     spotsList.push({
             "pitch": -26.83050941283083,
             "yaw": 1.7865100352001804,
@@ -71,11 +71,10 @@ function testParameters(value) {
 
     console.log('dados lista ' + spotsList);
 
-    pannellum.lookAt('panorama', {
+    pannellum.viewer('panorama', {
         "type": "equirectangular",
         "panorama": "https://www.umdesenvolvedor.com.br/static/img/foto_regiao.jpg",
         "autoLoad": true,
-    
         "hotSpots": spotsList
     });
     return value;
