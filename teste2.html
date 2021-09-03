@@ -40,10 +40,10 @@ function testParameters(value) {
     
     Object.keys(datas).forEach(function(k){
         console.log('length ========= ' + datas[k].length);
-        var obj = datas[k][0];
         
         for(i = 0; i <= datas[k].length; i++) {
             console.log('-------------------')
+            var obj = datas[k][i];
             Object.entries(obj).forEach(([key, value]) => {
                 console.log('key - ' + key + ' | value - ' + value);
             });
