@@ -41,8 +41,8 @@ function testParameters(value) {
     Object.keys(datas).forEach(function(k){
         console.log('length ========= ' + datas.length);
         var obj = datas[k][0];
-
-        Object.entries(obj).forEach((value) => {
+        
+        Object.entries(obj).forEach(([key, value]) => {
             console.log('key - ' + key + ' | value - ' + value);
         });
     });
