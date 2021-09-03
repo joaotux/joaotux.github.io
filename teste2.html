@@ -39,7 +39,7 @@ function testParameters(value) {
     var spotsList = [];
     
     Object.keys(datas).forEach(function(k){
-        console.log('length ========= ' + datas.length);
+        console.log('length ========= ' + datas[k].length);
         var obj = datas[k][0];
         
         Object.entries(obj).forEach(([key, value]) => {
