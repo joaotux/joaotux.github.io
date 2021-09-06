@@ -12,8 +12,7 @@
     -->
     <style>
     #panorama {
-        width: 1200px;
-        height: 800px;
+        width: 100vw;
     }
     </style>
 </head>
@@ -21,17 +20,17 @@
     <div id="panorama"></div>
 
 <script>
-function init(image) {
-    console.log('image ' + image);
+    function init(image) {
+        console.log('image 2 testes' + image);
 
-    pannellum.viewer('panorama', {
-        "type": "equirectangular",
-        "panorama": "https://www.umdesenvolvedor.com.br/static/img/foto_regiao.jpg",
-        "autoLoad": true,
-        "hotSpots": []
-    });
-    return image;
-} 
+        pannellum.viewer('panorama', {
+            "type": "equirectangular",
+            "panorama": image,
+            "autoLoad": true,
+            "hotSpots": []
+        });
+        return image;
+    } 
 </script>
 
 </body>
