@@ -21,7 +21,6 @@
     <div id="panorama"></div>
 
 <script>
-        var image = '';
         var query = location.search.slice(1);
         var partes = query.split('&');
         var data = {};
@@ -32,8 +31,6 @@
             var valor = chaveValor[1];
             data[chave] = valor;
         });
-        image = data['img'];
-        console.log(data['img']); 
         
         
 function testParameters(value) {
@@ -80,14 +77,13 @@ function testParameters(value) {
 }
 
 function init(image) {
-    var spotsList = [];
     console.log('image ' + image);
 
     pannellum.viewer('panorama', {
         "type": "equirectangular",
         "panorama": image,
         "autoLoad": true,
-        "hotSpots": spotsList
+        "hotSpots": []
     });
     return value;
 } 
