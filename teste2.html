@@ -9,10 +9,12 @@
     <!--
     <link rel="stylesheet" href="pannellum.css"/>
     <script type="text/javascript" src="pannellum.js"></script>
+    100vw
     -->
     <style>
     #panorama {
-        width: 100vw;
+        width: 800px;
+        height: 400px;
     }
     </style>
 </head>
@@ -21,7 +23,7 @@
 
 <script>
 function init(image) {
-    console.log('image 3 teste' + image);
+    console.log('image 3 teste ' + image);
 
     pannellum.viewer('panorama', {
         "type": "equirectangular",
