@@ -79,6 +79,19 @@ function testParameters(value) {
     return value;
 }
 
+function init(image) {
+    var spotsList = [];
+    console.log('image ' + image);
+
+    pannellum.viewer('panorama', {
+        "type": "equirectangular",
+        "panorama": image,
+        "autoLoad": true,
+        "hotSpots": spotsList
+    });
+    return value;
+} 
+
 /*
 
     [
