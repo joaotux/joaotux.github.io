@@ -26,8 +26,10 @@
         pannellum.viewer('panorama', {
             "type": "equirectangular",
             "panorama": image,
-            "autoLoad": false,
+            "autoLoad": true,
             "showControls": false,
+            "showZoomCtrl": false,
+            "showFullscreenCtrl": false,
             "hotSpots": []
         });
         return image;
