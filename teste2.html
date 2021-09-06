@@ -22,17 +22,17 @@
     <div id="panorama"></div>
 
 <script>
-function init(image) {
-    console.log('image 4 teste ' + image);
+    function init(image) {
+        console.log('image 4 teste ' + image);
 
-    pannellum.viewer('panorama', {
-        "type": "equirectangular",
-        "panorama": image,
-        "autoLoad": true,
-        "hotSpots": []
-    });
-    return image;
-} 
+        pannellum.viewer('panorama', {
+            "type": "equirectangular",
+            "panorama": image,
+            "autoLoad": true,
+            "hotSpots": []
+        });
+        return image;
+    }
 </script>
 
 </body>
