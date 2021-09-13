@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A simple example</title>
+    <link rel="stylesheet" href="menu_zone.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
     <!--
@@ -12,23 +13,45 @@
     100vw
     -->
     <style>
-    #panorama {
-        width: 800px;
-        height: 400px;
-    }
+        #panorama {
+            width: 100vw;
+            height: 100vw;
+        }
     </style>
 </head>
 <body>
-    <div id="panorama"></div>
+    <div id="panorama">
+
+        <div class="fab"  ontouchstart="">
+            <button class="main" >
+            </button>
+            <ul>
+                <li>
+                <label for="opcao1">Opção 1</label>
+                <button id="opcao1">
+                ⎈
+                </button>
+                </li>
+                <li>
+                <label for="opcao2">Opção 2</label>
+                <button id="opcao2">
+                ⎗
+                </button>
+                </li>
+            </ul>
+        </div>
+
+    </div>
 
 <script>
     function init(image) {
-        console.log('image 5 teste ' + image);
+        console.log('image 6 teste ' + image);
 
         pannellum.viewer('panorama', {
             "type": "equirectangular",
             "panorama": image,
             "autoLoad": true,
+            "showControls": false,
             "hotSpots": []
         });
         return image;
